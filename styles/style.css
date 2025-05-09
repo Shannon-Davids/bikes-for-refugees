@@ -163,9 +163,17 @@ header {
 
 
 /* Article */
+article{
+  display:flex;
 
+}
 .article {
+  display:flex;
   margin-bottom: 1rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  width:fit-content
 }
 
 .article__title {
@@ -187,6 +195,7 @@ header {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
+  padding: 20px;
 }
 
 .article__read-more {
