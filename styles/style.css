@@ -44,8 +44,8 @@ p {
 
 /* Header */
 
-.header {
-  display: flex;
+header {
+  display:inline-flex;
   align-items: center;
   justify-content: space-between;
   height: 5rem;
@@ -55,7 +55,7 @@ p {
 
 .header__logo {
   max-height: 90px;
-  width: auto;
+
 }
 
 /* Navigation */
@@ -66,7 +66,10 @@ p {
 }
 
 .navigation__item {
-  padding: 0.5rem 0;
+  display: inline-block;
+  padding:0.5rem 50px;
+  font-size: 1.5rem;
+  justify-content: space-around;
 }
 
 .navigation__link {
