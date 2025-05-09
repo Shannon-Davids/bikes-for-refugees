@@ -34,7 +34,7 @@ p {
   margin-bottom: 0;
 }
 
-.header,
+header,
 .content,
 .footer {
   padding: 0 1.5rem;
@@ -45,7 +45,7 @@ p {
 /* Header */
 
 header {
-  display:inline-flex;
+  display:flex;
   align-items: center;
   justify-content: space-between;
   height: 5rem;
@@ -55,7 +55,6 @@ header {
 
 .header__logo {
   max-height: 90px;
-
 }
 
 /* Navigation */
@@ -67,8 +66,8 @@ header {
 
 .navigation__item {
   display: inline-block;
-  padding:0.5rem 50px;
-  font-size: 1.5rem;
+  padding:0.5rem 30px;
+  font-size: 1rem;
   justify-content: space-around;
 }
 
@@ -125,6 +124,7 @@ header {
 .hero {
   background-image: url("header-bike.jpg");
   background-color: var(--grey-light);
+
 }
 
 .hero h1 {
